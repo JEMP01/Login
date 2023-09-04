@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+body {
+  background-color: antiquewhite;
+}
+.form {
+  background-color: azure;
+  width: 250px;
+  height: 500px;
+  position: relative;
+  border-radius: 35px;
+  margin: auto;
+  margin-top: 100px;
+}
+.img {
+  margin: 35px 50px 30px 70px;
+  width: 100px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 8px;
+  
+}
+.username_label, .password_label {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.username_input, .password_input {
+  background-color: azure;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  width: 200px;
+  height: 30px;
+  margin-left: 15px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  padding-left: 8px;
+  border-color: darkgray;
+}
+.button_sesion, .button_reset {
+  background-color: darkgray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  color: black;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-top: 65px;
+}
+.reset {
+  margin-top: 18px;
+}
+.button_sesion:link, .button_reset:link, .button_sesion:hover, .button_reset:hover{
+  background-color: aliceblue;
+}
